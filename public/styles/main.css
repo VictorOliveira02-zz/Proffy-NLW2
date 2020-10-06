@@ -1,0 +1,57 @@
+* {
+    margin: 0;/*Espaçamentos ao redor da pagina*/
+    padding: 0;/*Preenchimento do documento*/
+    box-sizing: border-box;/*Medida da caixa: conteudo da caixa*/
+}
+
+:root {
+    --color-background: #bfbfc2;
+    --color-primary-lighter: #9871F5;
+    --color-primary-light: #916BEA;
+    --color-primary: #8257E5;
+    --color-primary-dark: #774DD6;
+    --color-primary-darker: #6842c2;
+    --color-secondary: #04D361;
+    --color-secondary-dark: #04BF58;
+    --color-title-in-primary: #f6f6f6;
+    --color-text-in-primary: #3f179c;
+    --color-text-title: #32264D;
+    --color-text-complement: #9C98A6;
+    --color-text-base: #022336;
+    --color-line-in-white: #E6E6F0;
+    --color-input-background: #F8F8FC;
+    --color-button-text: #FFFFFF;
+    --color-box-base: #FFFFFF;
+    --color-box-footer: #FAFAFC;
+    --color-small-info: #C1BCCC;
+    font-size: 60%; /* controle das medidas rem */
+}
+
+html, body {
+    height: 100vh; /* Altura*/
+}
+
+body {
+    background: var(--color-background);
+    display: flex;/*Posicionamnetos*/
+    align-items: center;
+    justify-content: center;
+}
+
+body, input, button, textarea {
+    /*font: 500 1.6rem Poppins;*/
+    font-weight: 500;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    color: var(--color-text-base);
+}
+
+#container {/* Box Model*/
+    width: 90vw; /* Largura */
+    max-width: 700px;/* o maximo que ele pode chegar(alargar)*/
+}
+
+@media (min-width: 700px) {
+    :root {
+        font-size: 62.5%;/*Todo 1rem vale 10px*/
+}}
