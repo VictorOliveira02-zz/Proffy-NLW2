@@ -44,9 +44,6 @@ Feito isso, abra o seu navegador e acesse `http://localhost:5500/`
 - [SQLite](https://www.sqlite.org/index.html)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
-## 📌 Versão
-
-Este projeto possui um intuito estudantil, logo as versões são publicadas conforme o aprendizado evolui.
 
 ## ✒️ Autor
 * **Victor Alves de Oliveira** - Bacharel de Sistemas de Informação - Universidade Federal de Viçosa (UFV-CRP) - victoralvees17@gmail.com
